@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --warm-white: #FBF9F5;
-  --soft-purple: #E6E6FA;
-  --terracota: #D19880;
-  --neutral-grey: #7A7A7A;
+  --warm-white: #fbf9f5;
+  --soft-purple: #e6e6fa;
+  --terracota: #d19880;
+  --neutral-grey: #7a7a7a;
 }
 
 html {
@@ -18,7 +18,12 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   @apply font-playfair text-terracota;
   line-height: 1.2;
 }
@@ -29,8 +34,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-title::after {
-  content: '';
-  @apply absolute bottom-0 left-0 w-1/2 h-1 bg-terracota opacity-50 rounded-full;
+  content: "";
+  @apply absolute bottom-0 left-0 w-full h-1 bg-terracota opacity-50 rounded-full;
   transform: translateY(8px);
 }
 
@@ -43,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-container {
-  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24;
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12;
 }
 
 .service-card {
